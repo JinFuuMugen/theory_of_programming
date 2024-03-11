@@ -32,7 +32,7 @@ int main(int argc, char* argv[]) {
         std::cout << "Provide target: ";
         std::cin >> target;
 
-        TargetFinder<int> finder(target);
+        TargetFinder<int> finder = TargetFinder<int>(target);
 
         auto result = std::find_if(numeric_vec.begin(), numeric_vec.end(), finder);
 
@@ -52,6 +52,5 @@ int main(int argc, char* argv[]) {
         std::cerr << "Unknown error occurred" << std::endl;
     }
 
-    system("pause");
     return 0;
 }
