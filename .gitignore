@@ -2,3 +2,5 @@
 */.vscode
 *.txt
 *.yml
+/Lab6/Lab6/x64/Debug
+/Lab6/Lab6/Lab6/x64/Debug
